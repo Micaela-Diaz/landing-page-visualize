@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("./images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 64px 0 32px;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.header-img img {
+    width: 160px;
+    height: 164px;
+    border-radius: 50%;
+    border: 8px solid rgb(68, 71, 101);
+}
+
+.header-title {
+    font-size: 2.0rem;
+    color: rgba(255, 255, 255, 0.65);
+    font-weight: 200;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.header-social ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 20px;
+    padding: 0;
+}
+
+.header-social li {
+    list-style: none;
+}
+
+.header-social a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-social span {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 1.6rem;
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.header-social span:hover {
+    background-color: rgb(99, 95, 142);
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container a {
+    text-decoration: none;
+}
+
+.article-description {
+    width: 254px;
+    height: 24px;
+    font-size: 1.6rem;
+    font-weight: 200;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 3px;
+    margin: 0; 
+}
+
+.article-1 img {
+    margin-top: 30px;
+    width: 256px;
+    height: 365px;
+    border-radius: 3px; 
+}
+
+.article-2 img {
+    margin-top: 30px;
+    width: 256px;
+    height: 176px; 
+    border-radius: 3px;  
+}
+
+.article-3 img {
+    width: 256px;
+    height: 176px; 
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.article-4 img {
+    width: 256px;
+    height: 250px; 
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.article-5 img {
+    width: 256px;
+    height: 221px; 
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.article-6 img {
+    width: 256px;
+    height: 250px; 
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.article-7 img {
+    width: 256px;
+    height: 373px; 
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+footer div {
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 200;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    margin-top: 20px; 
+    padding-bottom: 30px;
+}
